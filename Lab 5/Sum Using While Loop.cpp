@@ -1,0 +1,30 @@
+    //NAME  :  SAFIULLAH
+    //REG:  BF25NWELE0687
+    //SECTION : B
+    //ELECTRICAL (AI)
+          
+		  
+		  
+		  
+		  
+		  
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, i = 1, sum = 0;
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+    while(i <= n)
+    {
+        sum = sum + i;
+        i++;
+    }
+
+    cout << "Sum = " << sum << endl;
+
+    return 0;
+}
